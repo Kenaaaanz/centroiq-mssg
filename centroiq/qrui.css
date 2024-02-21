@@ -1,0 +1,172 @@
+body
+{
+	min-height: 100%; 
+	background-color:  #ECE6E5 !important;
+	font-family: 'League Gothic', sans-serif;
+}
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.main-content
+{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.wrapper
+{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center
+{
+    text-align: center;
+}
+.tbl-full
+{
+    width: 100%;
+}
+.tbl-2
+{
+    width: 30%;
+}
+.page-title
+{
+	text-align: left;
+}
+.amount-box img
+{
+	width: 80px;
+}
+.amount
+{
+	font-size: 35px;
+}
+.amount-box p
+{
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+.btn-group
+{
+	margin: 20px 0;
+	padding: 1%;
+	width: 30%;
+	position: relative;
+}
+.btn-group .btn
+{
+	right: 100px;
+	margin: 8px;
+	border-radius: 20px !important;
+	font-size: 12px;
+}
+
+/*buttons css*/
+.btn-primary
+{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+	border-radius: 20px !important;
+    font-weight: bold;
+}
+.btn-primary:hover
+{
+    background-color: #3742fa;
+}
+.btn-secondary
+{
+    background-color: #37fa57;
+    padding: 1%;
+	margin: 20px 0;
+    color: black;
+    text-decoration: none;
+	border-radius: 20px !important;
+    font-weight: bold;
+}
+.btn-secondary:hover
+{
+    background-color: #37fa5790;
+}
+.success
+{
+    color: #37fa57;
+}
+.error
+{
+    color: #e40404;
+}
+/*css for Menu*/
+.menu
+{
+    border-bottom: 1px solid gray;
+}
+.menu ul
+{
+    list-style-type: none;
+
+}
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e90ff;
+}
+.menu ul li a:hover
+{
+    color: #3742fa;
+}
+.txn-history
+{
+	text-align: left;
+}
+.txn-list
+{
+	background-color: #fff;
+	padding: 25px 20px;
+	color: #777;
+	font-size: 14px;
+	margin: 15px 0;
+}
+.debit-amount
+{
+	color: red;
+	float: right;
+}
+.credit-amount
+{
+	color: green;
+	float: right;
+}
+/*css for footer*/
+
+.footer
+{
+    background-color: #1e90ff;
+    color: white;
+}
+.tbl3
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*css for login & signup*/
+.login
+{
+    border: 1px solid gray;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
